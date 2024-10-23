@@ -1,0 +1,67 @@
+@media all and (max-width:1400px) {
+    
+    .icon-hasham{
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+}
+@media all and (max-width:1024px) {
+    
+    .icon-hasham{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+@media all and (max-width:640px) {
+    
+    .icon-hasham{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+}
+@media all and (max-width:768px) {
+    
+    .line-chart-ha{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .linechart-years{
+        display: block;
+    }
+}
+@media all and (max-width:640px) {
+    
+    .container-ha{
+        padding: 10px 35px !important;
+    }
+    .linechart-years{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: start;
+    }
+    .wid-iss-ha{
+        width: 95%;
+    }
+    .card-wid-iss{
+        width: 77%;
+    }
+    .line-chart-posi{
+        position: relative;
+        right: 30px;
+    }
+    .char-height-small{
+        height: 12rem !important;
+    }
+    .tab-btn-ha{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .table-has{
+        gap: 0px !important;
+        row-gap: 30px !important;
+    }
+    .red-btn-table{
+        flex-wrap: wrap !important;
+        gap: 20px !important;
+        margin-bottom: 25px !important;
+    }
+}
